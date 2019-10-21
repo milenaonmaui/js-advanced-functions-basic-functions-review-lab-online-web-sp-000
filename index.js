@@ -3,6 +3,6 @@ function saturdayFun (activity = 'roller-skate') {
   return 'This Saturday, I want to '+ activity+"!"
 }
 
-function mondayWork {
+function mondayWork (activity = 'got to the office')  {
   
 }
