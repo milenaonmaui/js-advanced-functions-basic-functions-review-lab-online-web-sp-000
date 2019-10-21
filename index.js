@@ -13,4 +13,6 @@ function wrapAdjective(flair = "*"){
   }
 }
 
-function Calculator 
+function Calculator(){
+  this.add
+}
