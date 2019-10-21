@@ -36,7 +36,7 @@ function actionApplyer(start, funArray =[]){
     return start
   } else {
     for (let i=0; i<=funArray.length; i++){
-      const fn(a) = funArray[i]
+       = funArray[i]
       start = fn(start)
     }
     return start
