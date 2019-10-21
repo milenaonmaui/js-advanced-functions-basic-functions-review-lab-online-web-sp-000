@@ -35,6 +35,9 @@ function actionApplyer(start, funArray =[]){
   if (funArray.length === 0) {
     return start
   } else {
-    return 'n'
+    for (let i=0; i<=funArray.length; i++){
+      start = funArray(start)
+    }
+    return start
   }
 }
