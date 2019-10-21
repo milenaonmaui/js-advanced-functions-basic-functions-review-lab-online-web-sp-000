@@ -7,6 +7,8 @@ function mondayWork (activity = 'go to the office')  {
    return 'This Monday, I will '+ activity +'.'
 }
 
-function wrapAdjective(){
-  console.log('adj')
+function wrapAdjective(flair = "*"){
+  return function(param = 'special'){
+    return "You are " + flair +special +flair
+  }
 }
