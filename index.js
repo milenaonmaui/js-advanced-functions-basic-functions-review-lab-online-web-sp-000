@@ -13,8 +13,11 @@ function wrapAdjective(flair = "*"){
   }
 }
 
-function Calculator(){
-  this.add = function(){
-    return this.
+function Calculator(value){
+  this.add = function(op){
+    return this.value + op
+  }
+  this.subtract = function(){
+    return this.value -1
   }
 }
