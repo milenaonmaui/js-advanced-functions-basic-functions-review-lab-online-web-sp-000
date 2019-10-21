@@ -18,5 +18,7 @@ var Calculator = {
     return v1 + v2
  },
  
- subtract : 
+ subtract : function (v1, v2){
+   return v1-v2
+ }
 }
