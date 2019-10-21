@@ -30,3 +30,11 @@ var Calculator = {
    return v1/v2
  }
 }
+
+function actionPlayer(start, funArray =[]){
+  if (funArray.length === 0) {
+    return start
+  } else {
+    return 'n'
+  }
+}
