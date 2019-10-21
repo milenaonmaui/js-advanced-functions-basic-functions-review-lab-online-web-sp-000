@@ -13,9 +13,9 @@ function wrapAdjective(flair = "*"){
   }
 }
 
-function Calculator(value){
-  this.add = function(op){
-    return this.value + op
+function Calculator(){
+  this.add = function(v1, v2){
+    return v1+v2
   }
   this.subtract = function(){
     return this.value -1
