@@ -31,7 +31,7 @@ var Calculator = {
  }
 }
 
-function actionPlayer(start, funArray =[]){
+function actionApplyer(start, funArray =[]){
   if (funArray.length === 0) {
     return start
   } else {
